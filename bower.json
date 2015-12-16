@@ -1,0 +1,24 @@
+{
+  "name": "ngImgForce",
+  "homepage": "https://github.com/allenRoyston/ngImgForce",
+  "authors": [
+    "allen.acr@gmail.com"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "image",
+    "crop",
+    "angularjs",
+    "module"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
