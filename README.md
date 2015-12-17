@@ -11,13 +11,11 @@ Find it here:  (https://github.com/alexk111/ngImgCrop "Title")
 [Check it out](https://allenroyston.herokuapp.com/access/ng-img-force/index.html "Title")
   
 ## Install
-<code>
 NPM:
-npm install ng-img-force
-
+<code>npm install ng-img-force</code>
 Bower:
-bower install ngImgForce
-</code>
+<code>bower install ngImgForce</code>
+
 
 
 Ensure you link it correctly in your HTML
