@@ -21,8 +21,9 @@ Bower:
 
 Ensure you link it correctly in your HTML
 <code>
-  script src="./js/ng-img-force.js"
-  link rel='stylesheet' type="text/css" href="css/ng-img-force.css"
+  &lt;script src="./js/ng-img-force.js"&frasl;&gt;
+  <br>
+  &lt;link rel='stylesheet' type="text/css" href="css/ng-img-force.css"&frasl;&lgt;
 </code>
   
 And add it as a module for your app:
