@@ -21,8 +21,8 @@ Bower:
 
 Ensure you link it correctly in your HTML<br>
 ```
-&lt;script src="./js/ng-img-force.js"&gt;&lt;script&frasl;&gt;
-&lt;link rel='stylesheet' type="text/css" href="css/ng-img-force.css" &frasl;&gt;
+<script src="./js/ng-img-force.js"></script>
+<link rel='stylesheet' type="text/css" href="css/ng-img-force.css"></link>
 ```
   
   
@@ -54,6 +54,25 @@ app.controller('testController', ['$scope', function($scope) {
       angular.element(document.querySelector('#fileInput')).on('change',handleFileSelect);
 }])
 ```
+
+Then add this to your page:
+```
+image cropper:
+<img-force   image="myImage"
+             result-image="myCroppedImage"
+             area-min-size="100"
+             result-image-size='dimensions'>
+</img-force>
+ 
+preview:
+<img  ng-src="{{myCroppedImage}}" />
+
+```
+
+
+
+
+### Parameters
 
 
 
