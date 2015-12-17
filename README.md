@@ -64,7 +64,7 @@ Then add this to your page.  You'll need at least the input and the img-force (p
 <img-force   image="myImage"
              result-image="myCroppedImage"
              area-min-size="100"
-             result-image-size='dimensions'>
+             result-image-size='{w: 200, h: 200}'>
 </img-force>
  
  
@@ -78,7 +78,8 @@ Then add this to your page.  You'll need at least the input and the img-force (p
 
 
 ### Parameters
-
+result-image-size: [object] -> {w: [number], h: [number]}
+area-min-size:     "100" is the default.  If image cropper doesn't fit correctly adjust this to at least be close to your width.  
 
 
 
