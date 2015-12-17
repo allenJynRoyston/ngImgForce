@@ -57,14 +57,16 @@ app.controller('testController', ['$scope', function($scope) {
 
 Then add this to your page:
 ```
-image cropper:
+
 <img-force   image="myImage"
              result-image="myCroppedImage"
              area-min-size="100"
              result-image-size='dimensions'>
 </img-force>
  
-preview:
+ 
+ 
+<!-- PREVIEW -->
 <img  ng-src="{{myCroppedImage}}" />
 
 ```
