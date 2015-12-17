@@ -30,7 +30,7 @@ Ensure you link it correctly in your HTML<br>
   
   
   
-And add it as a module for your app:
+And add it as a module for your app:<br>
 <code>
   var app = angular.module('myApp', ['ngImgForce']);
 </code>
