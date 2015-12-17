@@ -20,20 +20,17 @@ Bower:
 
 
 Ensure you link it correctly in your HTML<br>
-<code>
-  &lt;script src="./js/ng-img-force.js"&gt;&lt;script&frasl;&gt;
-</code>
-<br>
-<code>
-  &lt;link rel='stylesheet' type="text/css" href="css/ng-img-force.css" &frasl;&gt;
-</code>
+```
+&lt;script src="./js/ng-img-force.js"&gt;&lt;script&frasl;&gt;
+&lt;link rel='stylesheet' type="text/css" href="css/ng-img-force.css" &frasl;&gt;
+```
   
   
   
 And add it as a module for your app:<br>
-<code>
-  var app = angular.module('myApp', ['ngImgForce']);
-</code>
+```
+var app = angular.module('myApp', ['ngImgForce']);
+```
 
 
 
