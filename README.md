@@ -28,8 +28,13 @@ Ensure you link it correctly in your HTML<br>
   &lt;link rel='stylesheet' type="text/css" href="css/ng-img-force.css" &frasl;&gt;
 </code>
   
+  
+  
 And add it as a module for your app:
+<code>
   var app = angular.module('myApp', ['ngImgForce']);
+</code>
+
 
 
 
