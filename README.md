@@ -57,7 +57,10 @@ app.controller('testController', ['$scope', function($scope) {
 
 Then add this to your page:
 ```
+<!-- FOR UPLOADING -->
+<input id="fileInput" type="file" />
 
+<!-- FOR CROPPER -->
 <img-force   image="myImage"
              result-image="myCroppedImage"
              area-min-size="100"
