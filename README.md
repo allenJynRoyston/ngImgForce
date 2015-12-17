@@ -39,6 +39,7 @@ And add it as a module for your app:<br>
 
 
 And add this chunk of code in your controller to handle the image upload:
+<code>
 app.controller('testController', ['$scope', function($scope) {
       $scope.myImage='';
       $scope.myCroppedImage='';
@@ -55,7 +56,7 @@ app.controller('testController', ['$scope', function($scope) {
       };
       angular.element(document.querySelector('#fileInput')).on('change',handleFileSelect);
 }])
-
+</code>
 
 
 
