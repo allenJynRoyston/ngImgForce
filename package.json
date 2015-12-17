@@ -1,0 +1,25 @@
+{
+  "name": "ng-img-force",
+  "version": "1.0.0",
+  "description": "Upload an image of any size and force it into a container of your choosing. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allenRoyston/ngImgForce.git"
+  },
+  "keywords": [
+    "angularjs",
+    "module",
+    "image",
+    "crop"
+  ],
+  "author": "allen royston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allenRoyston/ngImgForce/issues"
+  },
+  "homepage": "https://github.com/allenRoyston/ngImgForce#readme"
+}
