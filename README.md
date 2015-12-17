@@ -13,6 +13,7 @@ Find it here:  (https://github.com/alexk111/ngImgCrop "Title")
 ## Install
 NPM:
 <code>npm install ng-img-force</code>
+<br>
 Bower:
 <code>bower install ngImgForce</code>
 
