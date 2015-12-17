@@ -19,15 +19,19 @@ Bower:
 bower install ngImgForce
 </code>
 
+
 Ensure you link it correctly in your HTML
   <script src="./js/ng-img-force.js"></script>
   <link rel='stylesheet' type="text/css" href="css/ng-img-force.css">
+
   
 And add it as a module for your app:
   var app = angular.module('myApp', ['ngImgForce']);
 
-And add this chunk of code in your controller to handle the image upload:
 
+
+And add this chunk of code in your controller to handle the image upload:
+app.controller('testController', ['$scope', function($scope) {
       $scope.myImage='';
       $scope.myCroppedImage='';
 
@@ -42,7 +46,7 @@ And add this chunk of code in your controller to handle the image upload:
         reader.readAsDataURL(file);
       };
       angular.element(document.querySelector('#fileInput')).on('change',handleFileSelect);
-
+}])
 
 
 
@@ -55,38 +59,8 @@ And add this chunk of code in your controller to handle the image upload:
  - None
 
 ### Dependencies
-- jQuery  (not included)
-- backstretch.js (included)
+- None, just Angular 1.4+
 
-### NPM / Bower
-<code>
-npm install acr-backstretch --save-dev
-</code>
-<br>
-<code>
-bower install acr-backstretch --save
-</code>
-
-### Installation
-Include backstrech after you've included jQuery:<br>
-<code>
-&lt;script src="./js/backstretch.min.js"&gt; &lt;script&gt;
-</code>
-<br>
-Include the module in your scripts after AngularJS<br>
-<code>
-&lt;script src="./js/acr-backstretch.min.js"&gt; &lt;script&gt;
-</code>
-
-Add acrBackstretch in your apps dependencies.<br> 
-<code>
-var app = angular.module('myApp', ['acrBackstretch']);
-</code>
-
-### Usage
-<code>
-&lt;div ng-parallax pattern="myPattern" speed="0"&gt; &lt; /div&gt; 
-</code>
 
 ### Parameters
 fade: [numbers] in miliseconds (i.e. 1000 is 1 second)<br>
