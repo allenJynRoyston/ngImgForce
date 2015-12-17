@@ -35,7 +35,7 @@ var app = angular.module('myApp', ['ngImgForce']);
 
 
 
-And add this chunk of code in your controller to handle the image upload:
+And add this chunk of code in your controller to handle the image conversion:
 ```
 app.controller('testController', ['$scope', function($scope) {
       $scope.myImage='';
@@ -55,7 +55,7 @@ app.controller('testController', ['$scope', function($scope) {
 }])
 ```
 
-Then add this to your page:
+Then add this to your page.  You'll need at least the input and the img-force (preview is for funsies)
 ```
 <!-- FOR UPLOADING -->
 <input id="fileInput" type="file" />
