@@ -1,4 +1,4 @@
-# acr-backstretch
+# ng-img-force
 
 ### What Am I?!
 An awesome cropping tool that resizes an upload image and resizes it to the dimensions that you want.  
