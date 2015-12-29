@@ -4,7 +4,7 @@
 An awesome cropping tool that resizes an upload image and resizes it to the dimensions that you want.  
 For example, take a 1080x720 image and size it to just 50x50, or vice versa.  
 
-Based off the excellent cropping tool by alexk111.  Find the original here.  
+Based off the excellent cropping tool by alexk111.
 Find it here:  (https://github.com/alexk111/ngImgCrop "Title")
 
 ### Live Demo 
