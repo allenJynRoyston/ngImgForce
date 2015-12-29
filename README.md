@@ -5,7 +5,7 @@ An awesome cropping tool that resizes an upload image and resizes it to the dime
 For example, take a 1080x720 image and size it to just 50x50, or vice versa.  
 
 Based off the excellent cropping tool by alexk111.
-[Find it here](https://github.com/alexk111/ngImgCrop)
+[Find it here](https://github.com/alexk111/ngImgCrop).
 
 ### Live Demo 
 [Check it out](https://allenroyston.herokuapp.com/access/ng-img-force/index.html)
